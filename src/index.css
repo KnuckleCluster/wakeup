@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: monospace;
+}
+
+@font-face {
+    font-family: Paskowy;
+    src: url(/wakeup-app/public/img/Paskowy.ttf);
+}
+
+.paskowy {
+    font-family: Paskowy;
+}
+
+@font-face {
+    font-family: easvhs;
+    src: url(/wakeup-app/public/img/easvhs.ttf);
+}
+
+.easvhs {
+    font-family: easvhs;
+}
+
+.gcolor {
+    color: rgb(18, 238, 165);
+}
